@@ -5,9 +5,7 @@ import ssl
 import smtplib
 import time
 import os
-from dotenv import load_dotenv
 
-load_dotenv()
 
 context = ssl.create_default_context()
 
